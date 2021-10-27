@@ -19,4 +19,4 @@ npm start
 
 ## Deployment
 
-https://prethush-portfolio.netlify.app/
+https://prethush-portfolio-app.netlify.app/
