@@ -1,3 +1,4 @@
+// data
 let data = [
   {
     img: "/projects/project1.png",
