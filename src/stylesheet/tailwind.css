@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+  display: none;
+}
+
+.container:hover .overlay {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+  background-color: black;
+  background-image: url("../Images/hero/hero-bg.jpg");
+}
+
+.active {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .header .bars {
+    display: inline-block;
+    z-index: 100;
+  }
+  .nav {
+    display: none;
+  }
+  #toggle:checked ~ .nav {
+    display: inline-block;
+  }
+  .bars {
+    color: #fff;
+    font-size: 2rem;
+    position: fixed;
+    right: 2rem;
+    top: 0.5rem;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(2, 18, 45, 0.9);
+    width: 100%;
+    height: 500vh;
+    z-index: 99;
+    padding-top: 10rem;
+  }
+
+  .nav-menu li {
+    margin: 1rem 0;
+  }
+}
