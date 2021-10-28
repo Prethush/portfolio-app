@@ -33,15 +33,15 @@ export default function Hero() {
               Github
             </ReactTooltip>
 
-          {/* <li className="mr-4" data-tip data-for="linkedinTip"><a href="https://www.linkedin.com/in/prethush-a-k-3bb498157/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin hover:text-black"></i></a></li >
-          <ReactTooltip id="linkedinTip" place="bottom" effect="solid">
-              Linkedin
-          </ReactTooltip> */}
+            <li className="mr-4" data-tip data-for="linkedinTip"><a href="https://www.linkedin.com/in/prethush-a-k-3bb498157/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin hover:text-black"></i></a></li >
+            <ReactTooltip id="linkedinTip" place="bottom" effect="solid">
+                Linkedin
+            </ReactTooltip>
 
-          <li className="mr-4" data-tip data-for="codewarsTip"><a href="https://www.codewars.com/users/prethush%20" target="_blank" rel="noopener noreferrer"><i className="fas fa-tv hover:text-black"></i></a></li > 
-          <ReactTooltip id="codewarsTip" place="bottom" effect="solid">
-              CodeWars
-          </ReactTooltip>
+            <li className="mr-4" data-tip data-for="codewarsTip"><a href="https://www.codewars.com/users/prethush%20" target="_blank" rel="noopener noreferrer"><i className="fas fa-tv hover:text-black"></i></a></li > 
+            <ReactTooltip id="codewarsTip" place="bottom" effect="solid">
+                CodeWars
+            </ReactTooltip>
         </ul>
       </div>
     </section>
