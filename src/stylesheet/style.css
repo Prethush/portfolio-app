@@ -32660,13 +32660,8 @@ video {
 }
 
 .hero {
-  background-color: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(80, 80, 167, 1) 46%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-color: black;
+  background-image: url("../Images/hero/hero-bg.jpg");
 }
 
 .active {
