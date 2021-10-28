@@ -9,12 +9,12 @@ export default function About() {
         <div className="mt-8 flex items-center justify-between px-12 flex-wrap">
 
             <div className="flex flex-col xl:flex-30">
-                <span className="my-3 text-lg font-bold"><i className="fas fa-envelope-open mr-2"></i> Email : <a href="mailto: ktmirash49@gmail.com" className="underline text-blue-500">ktmirash49@gmail.com</a></span>
+                <span className="my-3 text-lg font-bold"><i className="fas fa-envelope-open mr-2"></i> Email : <a href="mailto: ktmirash49@gmail.com" className="underline text-blue-500 hover:text-red-500">ktmirash49@gmail.com</a></span>
                 <span className="my-3 text-lg font-bold"><i className="fas fa-phone mr-2"></i> Mobile : <span>+91 9207671084</span></span>
             </div>
             <div className="flex flex-col xl:flex-30">
-                <span className="my-3 text-lg font-bold"><i className="fas fa-file mr-2"></i> Resume : <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline text-blue-500">Click here</a></span>
-                <span className="my-3 text-lg font-bold"><i className="fas fa-blog mr-2"></i> Medium Account :  <a href="https://programmingnewbie.medium.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-500">Click here</a></span>
+                <span className="my-3 text-lg font-bold"><i className="fas fa-file mr-2"></i> Resume : <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-red-500">Click here</a></span>
+                <span className="my-3 text-lg font-bold"><i className="fas fa-blog mr-2"></i> Medium Account :  <a href="https://programmingnewbie.medium.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 hover:text-red-500">Click here</a></span>
             </div>
             <div className="flex flex-col xl:flex-30">
               <span  className="my-3 text-lg font-bold"><i className="fas fa-school mr-2"></i> Education : <span>BCA</span></span>

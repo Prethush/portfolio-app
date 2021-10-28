@@ -4,7 +4,7 @@ export default function Header() {
   let [isClicked, setClick] = useState(false);
 
   return (
-    <header className="py-8 header md:py-6 bg-gray-500 text-white fixed w-full top-0 z-50 ">
+    <header className="py-8 header md:py-6 bg-black text-white fixed w-full top-0 z-50 ">
       <div className=" w-custom mx-auto flex justify-between items-center">
         <div></div>
         {
