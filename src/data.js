@@ -90,6 +90,15 @@ let data = [
     liveLink: "https://altevents-kt.netlify.app/",
     techUsed: "React, Redux, Tailwindcss"
   },
+  {
+    img: "/projects/project11.png",
+    id: 1010,
+    title: "Netflix Clone",
+    desc: "This is a Netflix clone created using ReactJS.",
+    githubLink: "https://github.com/Prethush/netflix-clone",
+    liveLink: "https://netlix-clone-kt.netlify.app/",
+    techUsed: "React, Redux, Tailwindcss"
+  },
  
 ]
 
