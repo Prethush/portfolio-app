@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[7],{24:function(t,e,o){"use strict";o.r(e),o.d(e,"default",(function(){return c}));o(1);var n=o(0);function c(){return Object(n.jsx)("footer",{id:"contact",className:"py-8 bg-black text-center",children:Object(n.jsx)("small",{className:"text-white font-bold text-lg",children:"Thank You For Visiting"})})}}}]);
+//# sourceMappingURL=7.0e0ee9d8.chunk.js.map
